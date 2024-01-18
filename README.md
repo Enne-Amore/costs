@@ -7,9 +7,11 @@
 Projeto desenvolvido com o youtuber [Matheus Battisti](https://www.youtube.com/@MatheusBattisti) em seu curso de [React JS](https://youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&si=mP84Itow-4nrXjpK) gratuito no youtube. Utiliza-se a criação e o gerenciamento de projetos como conteúdo principal do site.
 
 
-<!-- ## ✅ Demonstração
+## 🪄 Funcionalidades
 
-[link](url) -->
+ - Criar e gerenciar projetos
+ - Validação de campos de preenchimento
+ - Menu horizontal de navegação por páginas
 
 
 ## 🖱️ Plataformas Usadas
@@ -97,12 +99,6 @@ Entre em um navegador e digite a seguinte URL no campo de pesquisa
   http://localhost:5000
 ```
 Ou [clique aqui](http://localhost:5000) por mais praticidade para entrar na primeira página do site
-
-
-## 🪄 Funcionalidades
-
-- Criar e gerenciar projetos
-- Validação de campos de preenchimento
 
 
 ## 📁 Documentação Da API
