@@ -2,9 +2,9 @@
 ![Logo Da Costs](https://github.com/matheusbattisti/curso_react_yt/blob/d36606ba5a99d655cc901698337f1ad432da60c6/src/img/costs_logo.png)
 
 
-# ⚕️ Costs - Front End
+# 💲 Costs - Front End
 
-Projeto desenvolvido com o youtuber [Matheus Batisti](https://www.youtube.com/@MatheusBattisti) em seu curso de [React JS](https://youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&si=mP84Itow-4nrXjpK) gratuito no youtube. Utiliza-se a criação e o gerenciamento de projetos como conteúdo principal do site.
+Projeto desenvolvido com o youtuber [Matheus Battisti](https://www.youtube.com/@MatheusBattisti) em seu curso de [React JS](https://youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&si=mP84Itow-4nrXjpK) gratuito no youtube. Utiliza-se a criação e o gerenciamento de projetos como conteúdo principal do site.
 
 
 <!-- ## ✅ Demonstração
@@ -61,19 +61,19 @@ UUID
 
 ## 💻 Rodando Localmente
 
-<!-- Clone o projeto
+Clone o projeto
 
 ```bash
-  git clone url
-``` -->
+  git clone https://github.com/Enne-Amore/costs.git
+```
 
-<!-- Entre no diretório do projeto
+Entre no diretório do projeto
 
 ```bash
-  cd diretorio_do_projeto
-``` -->
+  cd costs
+```
 
-Instale as dependências
+Instale as dependências básicas
 
 ```bash
   npm i
@@ -166,10 +166,10 @@ Ou [clique aqui](http://localhost:5000) por mais praticidade para entrar na prim
 
 | Cor                | Código Hexadecimal                                               |
 | ------------------ | ---------------------------------------------------------------- |
-| Cinza Clara        | ![#efefef](https://via.placeholder.com/10/efefef?text=+) #efefef |
-| Cinza Escura       | ![#7b7b7b](https://via.placeholder.com/10/7b7b7b?text=+) #7b7b7b |
+| Cinza Clara        | ![#EFEFEF](https://via.placeholder.com/10/EFEFEF?text=+) #EFEFEF |
+| Cinza Escura       | ![#7B7B7B](https://via.placeholder.com/10/7B7B7B?text=+) #7B7B7B |
 | Cinza Escura 2     | ![#222222](https://via.placeholder.com/10/222222?text=+) #222222 |
-| Amarela            | ![#ffbb33](https://via.placeholder.com/10/ffbb33?text=+) #ffbb33 |
+| Amarela            | ![#FFBB33](https://via.placeholder.com/10/FFBB33?text=+) #FFBB33 |
 
 
 ## 🌟 Referências De Uso
@@ -179,10 +179,10 @@ Ou [clique aqui](http://localhost:5000) por mais praticidade para entrar na prim
  - [Json Server](https://www.npmjs.com/package/json-server)
  - [UUID](https://www.npmjs.com/package/uuid)
  - [Create React App](https://github.com/facebook/create-react-app)
- - [running tests](https://facebook.github.io/create-react-app/docs/running-tests)
- - [deployment](https://facebook.github.io/create-react-app/docs/deployment)
- - [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
- - [React documentation](https://reactjs.org/)
+ - [Running Tests](https://facebook.github.io/create-react-app/docs/running-tests)
+ - [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ - [Documentação Create React App](https://facebook.github.io/create-react-app/docs/getting-started)
+ - [Documentação React](https://reactjs.org/)
  - [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
  - [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
  - [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
