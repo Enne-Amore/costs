@@ -198,6 +198,13 @@
  | Amarela        | `#FFBB33`   |
 
 
+## 🔤 Fontes Tipográficas
+
+ - **Open Sans**  
+   Exemplo de uso:  
+   `font-family: "Open Sans", sans-serif;`
+
+
 ## 🌟 Referências de Uso
 
  - [React Icons](https://react-icons.github.io/react-icons/)
