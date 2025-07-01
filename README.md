@@ -1,35 +1,28 @@
+# 💲 Costs
 
-![Logo Da Costs](https://github.com/matheusbattisti/curso_react_yt/blob/d36606ba5a99d655cc901698337f1ad432da60c6/src/img/costs_logo.png)
-
-
-# 💲 Costs - Front End
-
-Projeto desenvolvido com o youtuber [Matheus Battisti](https://www.youtube.com/@MatheusBattisti) em seu curso de [React JS](https://youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&si=mP84Itow-4nrXjpK) gratuito no youtube. Utiliza-se a criação e o gerenciamento de projetos como conteúdo principal do site.
+ Projeto desenvolvido com o youtuber [Matheus Battisti](https://www.youtube.com/@MatheusBattisti) em seu curso de [React JS](https://youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&si=mP84Itow-4nrXjpK) gratuito no youtube. Utiliza-se a criação e o gerenciamento de projetos como conteúdo principal do site.
 
 
-## 🪄 Funcionalidades
+## ⚡ Funcionalidades
 
  - Criar e gerenciar projetos
  - Validação de campos de preenchimento
  - Menu horizontal de navegação por páginas
 
 
-## 🖱️ Plataformas Usadas
-
-- [GitHub](https://about.github.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-
-
 ## 🚀 Tecnologias Utilizadas
 
-- React JS
-- React Icons
-- React Router Dom
-- Json Server
-- UUID
+ <p align="left">
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>
+   <img src="https://raw.githubusercontent.com/react-icons/react-icons/master/react-icons.svg" title="React Icons" alt="React Icons" width="40" height="40"/>
+   <img src="https://miro.medium.com/v2/resize:fit:640/1*ebQ5HlDwq-G-HzX2rP-QSA.png" title="React Router" alt="React Router" width="40" height="40"/>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/2048px-Official_CSS_Logo.svg.png" title="CSS Modules" alt="CSS Modules" width="40" height="40"/>
+   <img src="https://cdn-icons-png.flaticon.com/512/2581/2581980.png" title="Json Server" alt="Json Server" width="40" height="40"/>
+   <img src="https://ludwhe.gallerycdn.vsassets.io/extensions/ludwhe/vscode-uuid/2.0.0/1735920620147/Microsoft.VisualStudio.Services.Icons.Default" title="UUID" alt="UUID" width="40" height="40"/>
+ </p>
 
 
-## 💾 Instalação Dos Recursos Necessários
+## 💾 Instalação dos Recursos Necessários
 
 Dependências básicas do React Next
 
@@ -101,74 +94,74 @@ Entre em um navegador e digite a seguinte URL no campo de pesquisa
 Ou [clique aqui](http://localhost:5000) por mais praticidade para entrar na primeira página do site
 
 
-## 📁 Documentação Da API
+## 📁 Documentação da API
 
-#### Base da URL
+### Base da URL
 
-```http
-  http://localhost:5000
-```
+ ```http
+   http://localhost:5000
+ ```
 
-#### Posta todos os dados dos projetos
+### Posta todos os dados dos projetos
 
-```http
-  POST ${baseUrl}/projects/
-```
+ ```http
+   POST ${baseUrl}/projects/
+ ```
 
-#### Retorna todos os dados das categorias
+### Retorna todos os dados das categorias
 
-```http
-  GET ${baseUrl}/categories/
-```
+ ```http
+   GET ${baseUrl}/categories/
+ ```
 
-#### Retorna todos os dados dos projetos
+### Retorna todos os dados dos projetos
 
-```http
-  GET ${baseUrl}/projects/
-```
+ ```http
+   GET ${baseUrl}/projects/
+ ```
 
-#### Deleta um projeto específico
+### Deleta um projeto específico
 
-```http
-  DELETE ${baseUrl}/projects/${id}
-```
+ ```http
+   DELETE ${baseUrl}/projects/${id}
+ ```
+ 
+ | Parâmetro   | Tipo       | Descrição                                      |
+ | :---------- | :--------- | :--------------------------------------------- |
+ | `id`        | `any`      | **Obrigatório**. O ID do projeto que você quer |
 
-| Parâmetro   | Tipo       | Descrição                                      |
-| :---------- | :--------- | :--------------------------------------------- |
-| `id`        | `any`      | **Obrigatório**. O ID do projeto que você quer |
+### Atualiza alterações de um projeto específico
 
-#### Atualiza alterações de um projeto específico
+ ```http
+   PATCH ${baseUrl}/projects/${project.id}/
+ ```
+ 
+ | Parâmetro     | Tipo       | Descrição                                      |
+ | :------------ | :--------- | :--------------------------------------------- |
+ | `project.id`  | `any`      | **Obrigatório**. O ID do projeto que você quer |
 
-```http
-  PATCH ${baseUrl}/projects/${project.id}/
-```
+### Atualiza a remoção de um serviço em um projeto
 
-| Parâmetro     | Tipo       | Descrição                                      |
-| :------------ | :--------- | :--------------------------------------------- |
-| `project.id`  | `any`      | **Obrigatório**. O ID do projeto que você quer |
-
-#### Atualiza a remoção de um serviço em um projeto
-
-```http
-  PATCH ${baseUrl}/projects/${projectUpdated.id}
-```
-
-| Parâmetro           | Tipo       | Descrição                                                 |
-| :------------------ | :--------- | :-------------------------------------------------------- |
-| `projectUpdated.id` | `any`      | **Obrigatório**. O ID do projeto atualizado que você quer |
-
-
-## 🌈 Documentação de cores
-
-| Cor                | Código Hexadecimal                                               |
-| ------------------ | ---------------------------------------------------------------- |
-| Cinza Clara        | ![#EFEFEF](https://via.placeholder.com/10/EFEFEF?text=+) #EFEFEF |
-| Cinza Escura       | ![#7B7B7B](https://via.placeholder.com/10/7B7B7B?text=+) #7B7B7B |
-| Cinza Escura 2     | ![#222222](https://via.placeholder.com/10/222222?text=+) #222222 |
-| Amarela            | ![#FFBB33](https://via.placeholder.com/10/FFBB33?text=+) #FFBB33 |
+ ```http
+   PATCH ${baseUrl}/projects/${projectUpdated.id}
+ ```
+ 
+ | Parâmetro           | Tipo       | Descrição                                                 |
+ | :------------------ | :--------- | :-------------------------------------------------------- |
+ | `projectUpdated.id` | `any`      | **Obrigatório**. O ID do projeto atualizado que você quer |
 
 
-## 🌟 Referências De Uso
+## 🌈 Cores
+
+ | Cor            | Hexadecimal |
+ | -------------- | ----------- |
+ | Cinza Clara    | `#EFEFEF`   |
+ | Cinza Escura   | `#7B7B7B`   |
+ | Cinza Escura 2 | `#222222`   |
+ | Amarela        | `#FFBB33`   |
+
+
+## 🌟 Referências de Uso
 
  - [React Icons](https://react-icons.github.io/react-icons/)
  - [React Router Dom](https://reactrouter.com/en/main)
