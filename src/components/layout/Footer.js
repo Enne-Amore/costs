@@ -7,15 +7,15 @@ function Footer() {
     <footer className={styles.footer}>
       {/* Lista de redes socias */}
       <ul className={styles.social_list}>
-        <li>
+        <li tabIndex={0}>
           <FaFacebook />
         </li>
 
-        <li>
+        <li tabIndex={0}>
           <FaInstagram />
         </li>
 
-        <li>
+        <li tabIndex={0}>
           <FaLinkedin />  
         </li>
       </ul>
