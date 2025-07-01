@@ -8,6 +8,11 @@
  [Clique aqui para acessar o website](https://costs-nu-ten.vercel.app/)
 
 
+## 🎞️ Pré-visualização
+
+ <img src="public/preview.png" alt="Pré-visualização do site" width="340" height="200">
+
+
 ## ⚡ Funcionalidades
 
  - Criar e gerenciar projetos
@@ -96,7 +101,7 @@ Entre em um navegador e digite a seguinte URL no campo de pesquisa
 ```bash
   http://localhost:5000
 ```
-Ou [clique aqui](http://localhost:5000) por mais praticidade para entrar na primeira página do site
+Ou [clique aqui](http://localhost:5000) por mais praticidade para entrar na página inicial
 
 
 ## 📁 Documentação da API
