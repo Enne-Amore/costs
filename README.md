@@ -1,174 +1,211 @@
+# 💲 Costs
 
-![Logo Da Costs](https://github.com/matheusbattisti/curso_react_yt/blob/d36606ba5a99d655cc901698337f1ad432da60c6/src/img/costs_logo.png)
-
-
-# 💲 Costs - Front End
-
-Projeto desenvolvido com o youtuber [Matheus Battisti](https://www.youtube.com/@MatheusBattisti) em seu curso de [React JS](https://youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&si=mP84Itow-4nrXjpK) gratuito no youtube. Utiliza-se a criação e o gerenciamento de projetos como conteúdo principal do site.
+ Projeto desenvolvido com o youtuber [Matheus Battisti](https://www.youtube.com/@MatheusBattisti) em seu curso de [React JS](https://youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&si=mP84Itow-4nrXjpK) gratuito no youtube. Utiliza-se a criação e o gerenciamento de projetos como conteúdo principal do site.
 
 
-## 🪄 Funcionalidades
+## 🌐 Aplicação Hospedada
+
+ [Clique aqui para acessar o website](https://costs-nu-ten.vercel.app/)
+
+
+## 🎞️ Pré-visualização
+
+ <img src="public/preview.png" alt="Pré-visualização do site" width="340" height="200">
+
+
+## ⚡ Funcionalidades
 
  - Criar e gerenciar projetos
  - Validação de campos de preenchimento
  - Menu horizontal de navegação por páginas
 
 
-## 🖱️ Plataformas Usadas
-
-- [GitHub](https://about.github.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-
-
 ## 🚀 Tecnologias Utilizadas
 
-- React JS
-- React Icons
-- React Router Dom
-- Json Server
-- UUID
+ <p align="left">
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>
+   <img src="https://raw.githubusercontent.com/react-icons/react-icons/master/react-icons.svg" title="React Icons" alt="React Icons" width="40" height="40"/>
+   <img src="https://miro.medium.com/v2/resize:fit:640/1*ebQ5HlDwq-G-HzX2rP-QSA.png" title="React Router" alt="React Router" width="40" height="40"/>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/2048px-Official_CSS_Logo.svg.png" title="CSS Modules" alt="CSS Modules" width="40" height="40"/>
+   <img src="https://cdn-icons-png.flaticon.com/512/2581/2581980.png" title="Json Server" alt="Json Server" width="40" height="40"/>
+   <img src="https://ludwhe.gallerycdn.vsassets.io/extensions/ludwhe/vscode-uuid/2.0.0/1735920620147/Microsoft.VisualStudio.Services.Icons.Default" title="UUID" alt="UUID" width="40" height="40"/>
+ </p>
 
 
-## 💾 Instalação Dos Recursos Necessários
+## 📂 Estrutura do Projeto
 
-Dependências básicas do React Next
+ ```plaintext
+ costs/
+ ├── node_modules/       # Dependências
+ ├── public/             # Arquivos principais
+ │   ├── logo.png        # Logo do website
+ │   ├── index.html      # Arquivo principal de renderização
+ │   ├── manifest.json      
+ │   ├── preview.png   
+ │   ├── robots.txt
+ ├── src/                # Código de fonte da aplicação
+ │   ├── components/     # Componentes reutilizáveis (header, footer, etc)
+ │   ├── img/            # Imagens utilizadas
+ │   ├── App.js          # Componente principal de renderização
+ │   ├── index.css       # Arquivo principal de CSS
+ |   ├── main.js
+ ├── .gitattributes
+ ├── .gitignore
+ ├── db.json             # Arquivo de banco de dados simulado
+ ├── LICENSE             # Arquivo de licença do projeto
+ ├── package-lock.json
+ ├── package-json
+ ├── README.md
+ ```
 
-```bash
-  npm i
-``` 
 
-React Icons
+## 💾 Instalação dos Recursos Necessários
 
-```bash
-  npm i react-icons
-```
+ Dependências básicas do React Next
+ 
+ ```bash
+   npm i
+ ``` 
 
-React Router Dom
+ React Icons
+ 
+ ```bash
+   npm i react-icons
+ ```
 
-```bash
-  npm i react-router-dom
-```
+ React Router Dom
+ 
+ ```bash
+   npm i react-router-dom
+ ```
 
-Json Server
+ Json Server
+ 
+ ```bash
+   npm i json-server
+ ```
 
-```bash
-  npm i json-server
-```
-
-UUID
-
-```bash
-  npm i uuid
-```
+ UUID
+ 
+ ```bash
+   npm i uuid
+ ```
 
 ## 💻 Rodando Localmente
 
-Clone o projeto
+ Clone o projeto
 
-```bash
-  git clone https://github.com/Enne-Amore/costs.git
-```
+ ```bash
+   git clone https://github.com/Enne-Amore/costs.git
+ ```
 
-Entre no diretório do projeto
-
-```bash
-  cd costs
-```
-
-Instale as dependências básicas
-
-```bash
-  npm i
-```
-
-Rode os códigos do site utilizando o seguinte comando
-
-```bash
-  npm start
-```
-
-Rode a API do site utilizando o seguinte comando
-
-```bash
-  npm run backend
-```
-
-Entre em um navegador e digite a seguinte URL no campo de pesquisa
-
-```bash
-  http://localhost:5000
-```
-Ou [clique aqui](http://localhost:5000) por mais praticidade para entrar na primeira página do site
-
-
-## 📁 Documentação Da API
-
-#### Base da URL
-
-```http
-  http://localhost:5000
-```
-
-#### Posta todos os dados dos projetos
-
-```http
-  POST ${baseUrl}/projects/
-```
-
-#### Retorna todos os dados das categorias
-
-```http
-  GET ${baseUrl}/categories/
-```
-
-#### Retorna todos os dados dos projetos
-
-```http
-  GET ${baseUrl}/projects/
-```
-
-#### Deleta um projeto específico
-
-```http
-  DELETE ${baseUrl}/projects/${id}
-```
-
-| Parâmetro   | Tipo       | Descrição                                      |
-| :---------- | :--------- | :--------------------------------------------- |
-| `id`        | `any`      | **Obrigatório**. O ID do projeto que você quer |
-
-#### Atualiza alterações de um projeto específico
-
-```http
-  PATCH ${baseUrl}/projects/${project.id}/
-```
-
-| Parâmetro     | Tipo       | Descrição                                      |
-| :------------ | :--------- | :--------------------------------------------- |
-| `project.id`  | `any`      | **Obrigatório**. O ID do projeto que você quer |
-
-#### Atualiza a remoção de um serviço em um projeto
-
-```http
-  PATCH ${baseUrl}/projects/${projectUpdated.id}
-```
-
-| Parâmetro           | Tipo       | Descrição                                                 |
-| :------------------ | :--------- | :-------------------------------------------------------- |
-| `projectUpdated.id` | `any`      | **Obrigatório**. O ID do projeto atualizado que você quer |
+ Entre no diretório do projeto
+ 
+ ```bash
+   cd costs
+ ```
+ 
+ Instale as dependências básicas
+ 
+ ```bash
+   npm i
+ ```
+ 
+ Rode os códigos do site utilizando o seguinte comando
+ 
+ ```bash
+   npm start
+ ```
+ 
+ Rode a API do site utilizando o seguinte comando
+ 
+ ```bash
+   npm run backend
+ ```
+ 
+ Entre em um navegador e digite a seguinte URL no campo de pesquisa
+ 
+ ```bash
+   http://localhost:5000
+ ```
+ Ou [clique aqui](http://localhost:5000) por mais praticidade para entrar na página inicial
 
 
-## 🌈 Documentação de cores
+## 📁 Documentação da API
 
-| Cor                | Código Hexadecimal                                               |
-| ------------------ | ---------------------------------------------------------------- |
-| Cinza Clara        | ![#EFEFEF](https://via.placeholder.com/10/EFEFEF?text=+) #EFEFEF |
-| Cinza Escura       | ![#7B7B7B](https://via.placeholder.com/10/7B7B7B?text=+) #7B7B7B |
-| Cinza Escura 2     | ![#222222](https://via.placeholder.com/10/222222?text=+) #222222 |
-| Amarela            | ![#FFBB33](https://via.placeholder.com/10/FFBB33?text=+) #FFBB33 |
+### Base da URL
+
+ ```http
+   http://localhost:5000
+ ```
+
+### Posta todos os dados dos projetos
+
+ ```http
+   POST ${baseUrl}/projects/
+ ```
+
+### Retorna todos os dados das categorias
+
+ ```http
+   GET ${baseUrl}/categories/
+ ```
+
+### Retorna todos os dados dos projetos
+
+ ```http
+   GET ${baseUrl}/projects/
+ ```
+
+### Deleta um projeto específico
+
+ ```http
+   DELETE ${baseUrl}/projects/${id}
+ ```
+ 
+ | Parâmetro   | Tipo       | Descrição                                      |
+ | :---------- | :--------- | :--------------------------------------------- |
+ | `id`        | `any`      | **Obrigatório**. O ID do projeto que você quer |
+
+### Atualiza alterações de um projeto específico
+
+ ```http
+   PATCH ${baseUrl}/projects/${project.id}/
+ ```
+ 
+ | Parâmetro     | Tipo       | Descrição                                      |
+ | :------------ | :--------- | :--------------------------------------------- |
+ | `project.id`  | `any`      | **Obrigatório**. O ID do projeto que você quer |
+
+### Atualiza a remoção de um serviço em um projeto
+
+ ```http
+   PATCH ${baseUrl}/projects/${projectUpdated.id}
+ ```
+ 
+ | Parâmetro           | Tipo       | Descrição                                                 |
+ | :------------------ | :--------- | :-------------------------------------------------------- |
+ | `projectUpdated.id` | `any`      | **Obrigatório**. O ID do projeto atualizado que você quer |
 
 
-## 🌟 Referências De Uso
+## 🌈 Cores
+
+ | Cor            | Hexadecimal |
+ | -------------- | ----------- |
+ | Cinza Clara    | `#EFEFEF`   |
+ | Cinza Escura   | `#7B7B7B`   |
+ | Cinza Escura 2 | `#222222`   |
+ | Amarela        | `#FFBB33`   |
+
+
+## 🔤 Fontes Tipográficas
+
+ - **Open Sans**  
+   Exemplo de uso:  
+   `font-family: "Open Sans", sans-serif;`
+
+
+## 🌟 Referências de Uso
 
  - [React Icons](https://react-icons.github.io/react-icons/)
  - [React Router Dom](https://reactrouter.com/en/main)
@@ -185,3 +222,9 @@ Ou [clique aqui](http://localhost:5000) por mais praticidade para entrar na prim
  -[https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
  - [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
  - [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## 🔧 Suporte
+
+ Para me contatar como suporte, o meu email é [Enne.Pessoa@gmail.com](mailto:Enne.Pessoa@gmail.com)
+
