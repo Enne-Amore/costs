@@ -3,6 +3,11 @@
  Projeto desenvolvido com o youtuber [Matheus Battisti](https://www.youtube.com/@MatheusBattisti) em seu curso de [React JS](https://youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&si=mP84Itow-4nrXjpK) gratuito no youtube. Utiliza-se a criação e o gerenciamento de projetos como conteúdo principal do site.
 
 
+## 🌐 Aplicação Hospedada
+
+ [Clique aqui para acessar o website](https://costs-nu-ten.vercel.app/)
+
+
 ## ⚡ Funcionalidades
 
  - Criar e gerenciar projetos
