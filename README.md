@@ -32,76 +32,103 @@
  </p>
 
 
+## 📂 Estrutura do Projeto
+
+ ```plaintext
+ costs/
+ ├── node_modules/       # Dependências
+ ├── public/             # Arquivos principais
+ │   ├── logo.png        # Logo do website
+ │   ├── index.html      # Arquivo principal de renderização
+ │   ├── manifest.json      
+ │   ├── preview.png   
+ │   ├── robots.txt
+ ├── src/                # Código de fonte da aplicação
+ │   ├── components/     # Componentes reutilizáveis (header, footer, etc)
+ │   ├── img/            # Imagens utilizadas
+ │   ├── App.js          # Componente principal de renderização
+ │   ├── index.css       # Arquivo principal de CSS
+ |   ├── main.js
+ ├── .gitattributes
+ ├── .gitignore
+ ├── db.json             # Arquivo de banco de dados simulado
+ ├── LICENSE             # Arquivo de licença do projeto
+ ├── package-lock.json
+ ├── package-json
+ ├── README.md
+ ```
+
+
 ## 💾 Instalação dos Recursos Necessários
 
-Dependências básicas do React Next
+ Dependências básicas do React Next
+ 
+ ```bash
+   npm i
+ ``` 
 
-```bash
-  npm i
-``` 
+ React Icons
+ 
+ ```bash
+   npm i react-icons
+ ```
 
-React Icons
+ React Router Dom
+ 
+ ```bash
+   npm i react-router-dom
+ ```
 
-```bash
-  npm i react-icons
-```
+ Json Server
+ 
+ ```bash
+   npm i json-server
+ ```
 
-React Router Dom
-
-```bash
-  npm i react-router-dom
-```
-
-Json Server
-
-```bash
-  npm i json-server
-```
-
-UUID
-
-```bash
-  npm i uuid
-```
+ UUID
+ 
+ ```bash
+   npm i uuid
+ ```
 
 ## 💻 Rodando Localmente
 
-Clone o projeto
+ Clone o projeto
 
-```bash
-  git clone https://github.com/Enne-Amore/costs.git
-```
+ ```bash
+   git clone https://github.com/Enne-Amore/costs.git
+ ```
 
-Entre no diretório do projeto
-
-```bash
-  cd costs
-```
-
-Instale as dependências básicas
-
-```bash
-  npm i
-```
-
-Rode os códigos do site utilizando o seguinte comando
-
-```bash
-  npm start
-```
-
-Rode a API do site utilizando o seguinte comando
-
-```bash
-  npm run backend
-```
-
-Entre em um navegador e digite a seguinte URL no campo de pesquisa
-
-```bash
-  http://localhost:5000
-```
-Ou [clique aqui](http://localhost:5000) por mais praticidade para entrar na página inicial
+ Entre no diretório do projeto
+ 
+ ```bash
+   cd costs
+ ```
+ 
+ Instale as dependências básicas
+ 
+ ```bash
+   npm i
+ ```
+ 
+ Rode os códigos do site utilizando o seguinte comando
+ 
+ ```bash
+   npm start
+ ```
+ 
+ Rode a API do site utilizando o seguinte comando
+ 
+ ```bash
+   npm run backend
+ ```
+ 
+ Entre em um navegador e digite a seguinte URL no campo de pesquisa
+ 
+ ```bash
+   http://localhost:5000
+ ```
+ Ou [clique aqui](http://localhost:5000) por mais praticidade para entrar na página inicial
 
 
 ## 📁 Documentação da API
